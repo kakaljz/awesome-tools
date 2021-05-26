@@ -1,0 +1,18 @@
+# HELP cortex_ingester_chunk_age_seconds Distribution of chunk ages (when stored).
+# TYPE cortex_ingester_chunk_age_seconds histogram
+cortex_ingester_chunk_age_seconds_bucket{le="60"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="300"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="600"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="1800"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="3600"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="7200"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="14400"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="36000"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="43200"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="57600"} 0
+cortex_ingester_chunk_age_seconds_bucket{le="+Inf"} 0
+cortex_ingester_chunk_age_seconds_sum 0
+cortex_ingester_chunk_age_seconds_count 0
+# HELP cortex_ingester_chunks_created_total The total number of chunks the ingester has created.
+# TYPE cortex_ingester_chunks_created_total counter
+cortex_ingester_chunks_created_total 0
